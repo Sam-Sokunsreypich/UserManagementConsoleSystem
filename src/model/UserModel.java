@@ -20,8 +20,7 @@ public class UserModel {
                 .setEmail(email)
                 .build();
         users.add(user);
-
-        telegramNotifier.sendNotification("New user created: Name = " + name + ", Email = " + email);
+        telegramNotifier.sendNotification("New user created: Id: "+user.getId()+", UUID: "+user.getUuid()+"Name = " + name + ", Email = " + email);
 
     }
     public User findUserByUuid(String uuid){

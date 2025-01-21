@@ -15,7 +15,7 @@ public class UserView {
         // Add column headers and set styles
         for (int i = 0; i < columnNames.length; i++) {
             table.addCell(columnNames[i], new CellStyle(CellStyle.HorizontalAlign.center));
-            table.setColumnWidth(i, 20, 30); // Set column widths with a minimum and maximum range
+            table.setColumnWidth(i, 30, 40); // Set column widths with a minimum and maximum range
         }
 
         // Add user data to the table

@@ -29,7 +29,7 @@ public class TelegramNotification {
             );
 
             // Debug: Print the API URL to verify correctness
-            System.out.println("API URL: " + apiUrl);
+//            System.out.println("API URL: " + apiUrl);
 
             // Open an HTTP connection
             URL url = new URL(apiUrl);
